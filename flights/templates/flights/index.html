@@ -5,5 +5,13 @@
 	</header>
 	<body>
 		<h1> Flights </h1>
+		<ul>
+			{% for flight in flights %}
+				<li>
+					{{ flight }}
+				</li>
+			{% endfor %}
+			</ul>
+		</ul>
 	</body>
 </html>
